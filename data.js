@@ -901,7 +901,7 @@ var APP_DATA = {
           "yaw": 0.6715023604913153,
           "pitch": 0.4141470096383646,
           "rotation": 3.141592653589793,
-          "target": "17-gibbs-deck---existing"
+          "target": "16-gibbs-deck"
         }
       ],
       "infoHotspots": []
