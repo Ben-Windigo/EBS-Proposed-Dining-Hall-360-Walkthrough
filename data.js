@@ -20,34 +20,40 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 0.9411352351138813,
-        "pitch": -0.005637111277000173,
-        "fov": 1.3378744097411812
+        "yaw": 1.1425193795747557,
+        "pitch": -0.00367595889735739,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": 1.9141614556300297,
-          "pitch": 0.21522961643990968,
-          "rotation": 0,
-          "target": "1-meeting-room"
-        },
-        {
-          "yaw": 0.7494992560588702,
-          "pitch": 0.14446374660621508,
-          "rotation": 0.7853981633974483,
-          "target": "3-balcony-landing"
-        },
-        {
-          "yaw": 0.4132215783375237,
-          "pitch": 0.07790590946448361,
+          "yaw": 0.32657459705850655,
+          "pitch": 0.10656090555309206,
           "rotation": 0,
           "target": "2-upper-corridor"
         },
         {
-          "yaw": -2.6392930140705317,
-          "pitch": 0.04263467133931442,
+          "yaw": 1.277026810587822,
+          "pitch": 0.25246413429815107,
           "rotation": 0,
-          "target": "16-gibbs-deck"
+          "target": "3-balcony-landing"
+        },
+        {
+          "yaw": 1.9179084770565398,
+          "pitch": 0.2531371994475755,
+          "rotation": 0,
+          "target": "4-snack-area"
+        },
+        {
+          "yaw": 2.593137055917703,
+          "pitch": 0.048052077293309736,
+          "rotation": 0,
+          "target": "1-meeting-room"
+        },
+        {
+          "yaw": -2.5597736592288065,
+          "pitch": -0.03477455775449556,
+          "rotation": 0,
+          "target": "16-gibbs-deck---proposed"
         }
       ],
       "infoHotspots": []
@@ -72,22 +78,22 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 2.071571566020971,
-        "pitch": 0.06764533532399142,
-        "fov": 1.3378744097411812
+        "yaw": 1.6933864298412278,
+        "pitch": -0.019814441112945502,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": -0.5835990874045116,
-          "pitch": 0.17061071434710406,
-          "rotation": 11.780972450961727,
-          "target": "0-entry-lobby"
-        },
-        {
-          "yaw": 1.528029878333169,
-          "pitch": 0.1559110331893887,
+          "yaw": 1.5162505498711285,
+          "pitch": 0.22261434919887613,
           "rotation": 0,
           "target": "18-upper-level-outdoor-terrace"
+        },
+        {
+          "yaw": -0.6291326975317215,
+          "pitch": 0.19015284619100115,
+          "rotation": 0,
+          "target": "0-entry-lobby"
         }
       ],
       "infoHotspots": []
@@ -112,22 +118,22 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -2.3577590183659574,
-        "pitch": -0.07516148369334452,
-        "fov": 1.3378744097411812
+        "yaw": -2.3559863448453537,
+        "pitch": 0.010121193220268054,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": -2.6032266591603133,
-          "pitch": 0.07005703008008979,
-          "rotation": 0,
-          "target": "0-entry-lobby"
+          "yaw": -2.69630952326186,
+          "pitch": 0.2694520237315903,
+          "rotation": 4.71238898038469,
+          "target": "9-dining-room"
         },
         {
-          "yaw": -2.6640696139210487,
-          "pitch": 0.26781669265152885,
-          "rotation": 4.71238898038469,
-          "target": "7-dining-room"
+          "yaw": -2.3337382556149517,
+          "pitch": 0.1923488555000148,
+          "rotation": 5.497787143782138,
+          "target": "0-entry-lobby"
         }
       ],
       "infoHotspots": []
@@ -152,34 +158,28 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 1.1586301111316466,
-        "pitch": 0.21608926561831332,
-        "fov": 1.3378744097411812
+        "yaw": 1.2295489196515845,
+        "pitch": 0.008108732861824564,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": -1.695541409269964,
-          "pitch": 0.17942269463004124,
-          "rotation": 5.497787143782138,
-          "target": "0-entry-lobby"
+          "yaw": 0.603327385561137,
+          "pitch": 0.2687199261744837,
+          "rotation": 0,
+          "target": "9-dining-room"
         },
         {
-          "yaw": -1.0911992882423363,
-          "pitch": 0.2101131717180209,
-          "rotation": 0.7853981633974483,
-          "target": "2-upper-corridor"
-        },
-        {
-          "yaw": -2.5817923902229047,
-          "pitch": 0.36094287583360085,
-          "rotation": 17.27875959474387,
+          "yaw": -2.4592096289479635,
+          "pitch": 0.30899682783648075,
+          "rotation": 4.71238898038469,
           "target": "4-snack-area"
         },
         {
-          "yaw": 0.6085650685916484,
-          "pitch": 0.25262211606692375,
-          "rotation": 9.42477796076938,
-          "target": "7-dining-room"
+          "yaw": -2.1857306500515605,
+          "pitch": 0.03229892407096102,
+          "rotation": 6.283185307179586,
+          "target": "0-entry-lobby"
         }
       ],
       "infoHotspots": []
@@ -204,41 +204,47 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 2.329418639679364,
-        "pitch": 0.08455666915497062,
-        "fov": 1.3378744097411812
+        "yaw": 2.3481391244139136,
+        "pitch": 0.0018379794486822476,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": -2.9932829920722117,
-          "pitch": 0.07082394674351278,
+          "yaw": 2.2156472398392513,
+          "pitch": 0.1503955784402855,
           "rotation": 0,
-          "target": "5-teaching-kitchen---open"
+          "target": "20-sports-center-access"
         },
         {
-          "yaw": 2.1846776299931507,
-          "pitch": 0.15608269002163055,
+          "yaw": -2.9110731665776353,
+          "pitch": 0.33596887710591616,
           "rotation": 0,
-          "target": "22-sports-center-access"
+          "target": "5-snack-area---wall-open"
         },
         {
-          "yaw": -0.8919551422772773,
-          "pitch": 0.04340882767598231,
+          "yaw": -1.118956514189529,
+          "pitch": -0.2535963560582122,
+          "rotation": 0,
+          "target": "0-entry-lobby"
+        },
+        {
+          "yaw": -0.5735541460668525,
+          "pitch": -0.06734491005311405,
           "rotation": 1.5707963267948966,
-          "target": "7-dining-room"
+          "target": "9-dining-room"
         },
         {
-          "yaw": -1.1247419706310922,
-          "pitch": -0.20983623632829662,
-          "rotation": 7.0685834705770345,
-          "target": "3-balcony-landing"
+          "yaw": -2.895573562702701,
+          "pitch": 0.10453460104425716,
+          "rotation": 0,
+          "target": "7-teaching-kitchen"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "5-teaching-kitchen---open",
-      "name": "Teaching Kitchen - open",
+      "id": "5-snack-area---wall-open",
+      "name": "Snack Area - Wall OPEN",
       "levels": [
         {
           "tileSize": 256,
@@ -256,41 +262,53 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -2.695145233848063,
-        "pitch": 0.0018790370923298383,
-        "fov": 1.3378744097411812
+        "yaw": -2.777721284931385,
+        "pitch": 0.006502594062183675,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": -2.988485481517465,
-          "pitch": 0.0929528303699847,
+          "yaw": -2.9082895180077166,
+          "pitch": 0.33926621119569766,
           "rotation": 0,
-          "target": "6-teaching-kitchen---closed"
+          "target": "6-snack-area---wall-closed"
         },
         {
-          "yaw": 2.182242270204558,
-          "pitch": 0.13753241588975484,
+          "yaw": -1.1126337265711577,
+          "pitch": -0.2617748161903748,
           "rotation": 0,
-          "target": "22-sports-center-access"
+          "target": "0-entry-lobby"
         },
         {
-          "yaw": -0.8832565631406837,
-          "pitch": 0.049771732241527644,
+          "yaw": -0.5669604390492768,
+          "pitch": -0.07677267671976296,
           "rotation": 1.5707963267948966,
-          "target": "7-dining-room"
+          "target": "9-dining-room"
         },
         {
-          "yaw": -1.131880999328036,
-          "pitch": -0.181408133038234,
-          "rotation": 7.0685834705770345,
-          "target": "3-balcony-landing"
+          "yaw": -2.899329386989928,
+          "pitch": 0.09876945173799712,
+          "rotation": 0,
+          "target": "7-teaching-kitchen"
+        },
+        {
+          "yaw": -2.638706340789513,
+          "pitch": 0.02622977907627444,
+          "rotation": 0,
+          "target": "8-bakery"
+        },
+        {
+          "yaw": 2.2166867398731176,
+          "pitch": 0.15320625369349727,
+          "rotation": 0,
+          "target": "20-sports-center-access"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "6-teaching-kitchen---closed",
-      "name": "Teaching Kitchen - closed",
+      "id": "6-snack-area---wall-closed",
+      "name": "Snack Area - Wall CLOSED",
       "levels": [
         {
           "tileSize": 256,
@@ -308,40 +326,126 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -2.6959656877699363,
-        "pitch": 0.007082524424944836,
-        "fov": 1.3378744097411812
+        "yaw": -2.7777586325971235,
+        "pitch": 0.005513938346048519,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": -2.991479849236649,
-          "pitch": 0.09576691305835894,
-          "rotation": 0,
-          "target": "5-teaching-kitchen---open"
-        },
-        {
-          "yaw": 2.1838362936883158,
-          "pitch": 0.15857699585183127,
-          "rotation": 0,
-          "target": "22-sports-center-access"
-        },
-        {
-          "yaw": -1.1205589810297951,
-          "pitch": -0.20485284229403788,
-          "rotation": 0.7853981633974483,
-          "target": "3-balcony-landing"
-        },
-        {
-          "yaw": -0.8822867856113774,
-          "pitch": 0.04704301525140053,
+          "yaw": -0.5741023847441014,
+          "pitch": -0.0845519808958084,
           "rotation": 1.5707963267948966,
-          "target": "7-dining-room"
+          "target": "9-dining-room"
+        },
+        {
+          "yaw": -1.1225827088481939,
+          "pitch": -0.2574593150388367,
+          "rotation": 0,
+          "target": "0-entry-lobby"
+        },
+        {
+          "yaw": 2.2199796158597564,
+          "pitch": 0.15579077803372599,
+          "rotation": 0,
+          "target": "20-sports-center-access"
+        },
+        {
+          "yaw": -2.908278998498833,
+          "pitch": 0.3382852073691005,
+          "rotation": 0,
+          "target": "5-snack-area---wall-open"
+        },
+        {
+          "yaw": -2.8993485327367026,
+          "pitch": 0.09560037706371105,
+          "rotation": 0,
+          "target": "7-teaching-kitchen"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "7-dining-room",
+      "id": "7-teaching-kitchen",
+      "name": "Teaching Kitchen",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": 0.014232412946142858,
+        "pitch": 0.0028898343800261017,
+        "fov": 1.4134061960355204
+      },
+      "linkHotspots": [
+        {
+          "yaw": -2.4893260759507285,
+          "pitch": 0.11996098425430546,
+          "rotation": 0,
+          "target": "8-bakery"
+        },
+        {
+          "yaw": -0.041249530025503134,
+          "pitch": 0.1525255363650313,
+          "rotation": 0,
+          "target": "4-snack-area"
+        },
+        {
+          "yaw": 0.5600109770571322,
+          "pitch": 0.12565855445387797,
+          "rotation": 7.0685834705770345,
+          "target": "20-sports-center-access"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "8-bakery",
+      "name": "Bakery",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": 0.34503816750964944,
+        "pitch": -0.020217773935485184,
+        "fov": 1.4134061960355204
+      },
+      "linkHotspots": [
+        {
+          "yaw": 0.01260875872154621,
+          "pitch": 0.14720179690087676,
+          "rotation": 0,
+          "target": "7-teaching-kitchen"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "9-dining-room",
       "name": "Dining Room",
       "levels": [
         {
@@ -360,168 +464,40 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -2.1199037606915834,
-        "pitch": -0.022727975518861854,
-        "fov": 1.3378744097411812
+        "yaw": -1.9426857135659894,
+        "pitch": 0.0036759588973609425,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": 2.0414101487168868,
-          "pitch": 0.30894830317731525,
-          "rotation": 0,
-          "target": "8-dining-room---not-skipped-column"
+          "yaw": -2.899661436830357,
+          "pitch": 0.028974064676948075,
+          "rotation": 5.497787143782138,
+          "target": "4-snack-area"
         },
         {
-          "yaw": 0.41341605012956606,
-          "pitch": 0.05749644889807115,
+          "yaw": -2.5407122606410635,
+          "pitch": -0.1534637305569806,
           "rotation": 0,
-          "target": "23-south-terrace"
+          "target": "3-balcony-landing"
         },
         {
-          "yaw": -1.2118551402068185,
-          "pitch": 0.31157268456174947,
-          "rotation": 0,
-          "target": "12-servery-doors-closed"
+          "yaw": -2.4545999645063326,
+          "pitch": 0.030301785443606732,
+          "rotation": 0.7853981633974483,
+          "target": "2-upper-corridor"
         },
         {
-          "yaw": -1.1631230094436127,
-          "pitch": 0.08515603673210848,
+          "yaw": -1.1586722619263483,
+          "pitch": 0.07562682410314459,
           "rotation": 0,
           "target": "10-servery"
         },
         {
-          "yaw": -2.522163745224317,
-          "pitch": -0.142129868403142,
-          "rotation": 0.7853981633974483,
-          "target": "3-balcony-landing"
-        },
-        {
-          "yaw": -2.7298691807771505,
-          "pitch": -0.009519593745025645,
-          "rotation": 4.71238898038469,
-          "target": "4-snack-area"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "8-dining-room---not-skipped-column",
-      "name": "Dining Room - not skipped column",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": 1.9990732740150534,
-        "pitch": -0.05073400149300511,
-        "fov": 1.3378744097411812
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.042682741729295,
-          "pitch": 0.3080056537710121,
+          "yaw": 0.40231932314003593,
+          "pitch": 0.03335458469362429,
           "rotation": 0,
-          "target": "9-dining-room---skipped-column"
-        },
-        {
-          "yaw": -2.727803739292103,
-          "pitch": 0.0024863715345553317,
-          "rotation": 4.71238898038469,
-          "target": "4-snack-area"
-        },
-        {
-          "yaw": -2.5339862294831015,
-          "pitch": -0.1396689771427173,
-          "rotation": 0.7853981633974483,
-          "target": "3-balcony-landing"
-        },
-        {
-          "yaw": -1.1990123226691782,
-          "pitch": 0.30593070565578273,
-          "rotation": 0,
-          "target": "11-servery-doors-open"
-        },
-        {
-          "yaw": 0.408160822419978,
-          "pitch": 0.05004757230393864,
-          "rotation": 0,
-          "target": "23-south-terrace"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "9-dining-room---skipped-column",
-      "name": "Dining Room - skipped column",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": 2.0005652534134466,
-        "pitch": -0.047185052100417124,
-        "fov": 1.3378744097411812
-      },
-      "linkHotspots": [
-        {
-          "yaw": 2.0442205597444802,
-          "pitch": 0.3134935619156245,
-          "rotation": 0,
-          "target": "8-dining-room---not-skipped-column"
-        },
-        {
-          "yaw": -1.1820216425023098,
-          "pitch": 0.08833581344489971,
-          "rotation": 0,
-          "target": "10-servery"
-        },
-        {
-          "yaw": -1.2130119168975533,
-          "pitch": 0.31216235670394354,
-          "rotation": 0,
-          "target": "12-servery-doors-closed"
-        },
-        {
-          "yaw": 0.40480034266511566,
-          "pitch": 0.05196916712939803,
-          "rotation": 0,
-          "target": "23-south-terrace"
-        },
-        {
-          "yaw": -2.7340659654178854,
-          "pitch": 0.0011209921617911789,
-          "rotation": 4.71238898038469,
-          "target": "4-snack-area"
-        },
-        {
-          "yaw": -2.534365049715902,
-          "pitch": -0.14380267210214015,
-          "rotation": 0.7853981633974483,
-          "target": "3-balcony-landing"
+          "target": "21-south-terrace"
         }
       ],
       "infoHotspots": []
@@ -546,162 +522,46 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -1.5009831567151295,
-        "pitch": -0.12213741100165976,
-        "fov": 1.3378744097411812
+        "yaw": -1.494036170674736,
+        "pitch": 0.005513938346041414,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": -2.35811882879144,
-          "pitch": 0.13819382004973235,
-          "rotation": 6.283185307179586,
-          "target": "13-kitchen---prep-side"
-        },
-        {
-          "yaw": -0.6585172859003929,
-          "pitch": 0.14724492153717428,
+          "yaw": -1.5627844325595994,
+          "pitch": 0.05198934755693152,
           "rotation": 0,
-          "target": "14-kitchen---dish-wash-side"
+          "target": "12-kitchen---cookserve-line"
         },
         {
-          "yaw": -2.5702780240211602,
-          "pitch": 0.14358815171160444,
+          "yaw": -2.311697267220623,
+          "pitch": 0.09769400582356269,
           "rotation": 5.497787143782138,
-          "target": "15-kp-room"
+          "target": "11-kitchen---prep-side"
         },
         {
-          "yaw": 1.6075121842945723,
-          "pitch": 0.1583109192428509,
-          "rotation": 0,
-          "target": "7-dining-room"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "11-servery-doors-open",
-      "name": "Servery Doors Open",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -1.1143255993502308,
-        "pitch": -0.06388726113932819,
-        "fov": 1.3378744097411812
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.2052241032650794,
-          "pitch": 0.31132110976077243,
-          "rotation": 0,
-          "target": "12-servery-doors-closed"
-        },
-        {
-          "yaw": -1.1911987314111965,
-          "pitch": 0.10730169437047898,
-          "rotation": 0,
-          "target": "10-servery"
-        },
-        {
-          "yaw": 0.4049961708102039,
-          "pitch": 0.05472233913437208,
-          "rotation": 0,
-          "target": "23-south-terrace"
-        },
-        {
-          "yaw": -2.7318105273353996,
-          "pitch": -0.0027441887404293652,
-          "rotation": 4.71238898038469,
-          "target": "4-snack-area"
-        },
-        {
-          "yaw": -2.536453749279609,
-          "pitch": -0.14975125867841754,
+          "yaw": -0.7130128914052829,
+          "pitch": 0.12014471647837155,
           "rotation": 0.7853981633974483,
-          "target": "3-balcony-landing"
+          "target": "13-kitchen---dishpit"
         },
         {
-          "yaw": 2.0416999788639565,
-          "pitch": 0.3164800263176488,
+          "yaw": -0.011302856879613188,
+          "pitch": 0.1305794576342656,
           "rotation": 0,
-          "target": "8-dining-room---not-skipped-column"
+          "target": "14-dish-drop"
+        },
+        {
+          "yaw": 1.6110091177650006,
+          "pitch": 0.15507552573649797,
+          "rotation": 0,
+          "target": "9-dining-room"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "12-servery-doors-closed",
-      "name": "Servery Doors Closed",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -1.1129830383871688,
-        "pitch": -0.06388726113930687,
-        "fov": 1.3378744097411812
-      },
-      "linkHotspots": [
-        {
-          "yaw": -1.2038811178660485,
-          "pitch": 0.31132076490756333,
-          "rotation": 0,
-          "target": "11-servery-doors-open"
-        },
-        {
-          "yaw": 2.0385469673053693,
-          "pitch": 0.3155495736957583,
-          "rotation": 0,
-          "target": "9-dining-room---skipped-column"
-        },
-        {
-          "yaw": 0.40792399554028336,
-          "pitch": 0.05264352701820485,
-          "rotation": 0,
-          "target": "23-south-terrace"
-        },
-        {
-          "yaw": -2.7310385325575304,
-          "pitch": -0.0008487799486722736,
-          "rotation": 4.71238898038469,
-          "target": "4-snack-area"
-        },
-        {
-          "yaw": -2.5315116707820167,
-          "pitch": -0.14442245882116822,
-          "rotation": 0.7853981633974483,
-          "target": "3-balcony-landing"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "13-kitchen---prep-side",
+      "id": "11-kitchen---prep-side",
       "name": "Kitchen - Prep Side",
       "levels": [
         {
@@ -720,35 +580,35 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 0.5893842627888652,
-        "pitch": 0.04697592730833122,
-        "fov": 1.3378744097411812
+        "yaw": 0.6444292622748371,
+        "pitch": 0.009189897243404133,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": 1.486134698301159,
-          "pitch": 0.2432727196575346,
-          "rotation": 0.7853981633974483,
+          "yaw": 0.9113644493060669,
+          "pitch": 0.13036412226254335,
+          "rotation": 1.5707963267948966,
           "target": "15-kp-room"
         },
         {
-          "yaw": -0.1429570405790166,
-          "pitch": 0.05313280575278512,
-          "rotation": 0,
-          "target": "14-kitchen---dish-wash-side"
-        },
-        {
-          "yaw": 0.7448129625773117,
-          "pitch": 0.19023360293792102,
+          "yaw": 0.6288770949431832,
+          "pitch": 0.07127785463671543,
           "rotation": 0.7853981633974483,
           "target": "10-servery"
+        },
+        {
+          "yaw": 0.4089075309499446,
+          "pitch": 0.07147583667823731,
+          "rotation": 0,
+          "target": "12-kitchen---cookserve-line"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "14-kitchen---dish-wash-side",
-      "name": "Kitchen - Dish Wash Side",
+      "id": "12-kitchen---cookserve-line",
+      "name": "Kitchen - Cook/Serve Line",
       "levels": [
         {
           "tileSize": 256,
@@ -766,22 +626,114 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 2.1736737735079625,
-        "pitch": 0.06388726113933885,
-        "fov": 1.3378744097411812
+        "yaw": 1.6607479113207546,
+        "pitch": 0.10292684912611527,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": 1.6950605444655498,
-          "pitch": 0.16823116230506585,
+          "yaw": 1.584187119108364,
+          "pitch": 0.2041374032769827,
           "rotation": 0,
           "target": "10-servery"
         },
         {
-          "yaw": 3.1171063988618926,
-          "pitch": 0.10029379222858026,
-          "rotation": 12.566370614359176,
-          "target": "13-kitchen---prep-side"
+          "yaw": 0.0490846433929395,
+          "pitch": 0.10776046127051941,
+          "rotation": 0,
+          "target": "13-kitchen---dishpit"
+        },
+        {
+          "yaw": -3.0685954327264753,
+          "pitch": 0.14567641546085497,
+          "rotation": 0,
+          "target": "11-kitchen---prep-side"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "13-kitchen---dishpit",
+      "name": "Kitchen - Dishpit",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": 2.0420352248333575,
+        "pitch": 0.0055139383460502955,
+        "fov": 1.4134061960355204
+      },
+      "linkHotspots": [
+        {
+          "yaw": 2.8056169565900966,
+          "pitch": 0.0996631219958406,
+          "rotation": 0.7853981633974483,
+          "target": "12-kitchen---cookserve-line"
+        },
+        {
+          "yaw": 2.5658153922870124,
+          "pitch": 0.10717183836780819,
+          "rotation": 5.497787143782138,
+          "target": "10-servery"
+        },
+        {
+          "yaw": 1.6776465960802707,
+          "pitch": 0.05197825301949521,
+          "rotation": 0,
+          "target": "14-dish-drop"
+        }
+      ],
+      "infoHotspots": []
+    },
+    {
+      "id": "14-dish-drop",
+      "name": "Dish Drop",
+      "levels": [
+        {
+          "tileSize": 256,
+          "size": 256,
+          "fallbackOnly": true
+        },
+        {
+          "tileSize": 512,
+          "size": 512
+        },
+        {
+          "tileSize": 512,
+          "size": 1024
+        }
+      ],
+      "faceSize": 1024,
+      "initialViewParameters": {
+        "yaw": -1.4070038893000305,
+        "pitch": 0.012865856140759746,
+        "fov": 1.4134061960355204
+      },
+      "linkHotspots": [
+        {
+          "yaw": -1.1947381333600013,
+          "pitch": 0.04729595587768998,
+          "rotation": 0,
+          "target": "13-kitchen---dishpit"
+        },
+        {
+          "yaw": -3.0545755842585187,
+          "pitch": 0.15212982153490096,
+          "rotation": 0,
+          "target": "10-servery"
         }
       ],
       "infoHotspots": []
@@ -806,29 +758,23 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -0.3208720701743477,
-        "pitch": -0.03758074184666782,
-        "fov": 1.3378744097411812
+        "yaw": -0.4054534108479153,
+        "pitch": -0.02940767117888754,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": -0.26803467931297753,
-          "pitch": 0.18279613925401605,
-          "rotation": 0.7853981633974483,
-          "target": "10-servery"
-        },
-        {
-          "yaw": -0.9279926363028359,
-          "pitch": 0.13503420571404945,
-          "rotation": 11.780972450961727,
-          "target": "13-kitchen---prep-side"
+          "yaw": -1.0726771311010115,
+          "pitch": 0.06429186722292712,
+          "rotation": 6.283185307179586,
+          "target": "11-kitchen---prep-side"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "16-gibbs-deck",
-      "name": "Gibbs Deck",
+      "id": "16-gibbs-deck---proposed",
+      "name": "Gibbs Deck - Proposed",
       "levels": [
         {
           "tileSize": 256,
@@ -846,35 +792,35 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 0.7733151147298063,
-        "pitch": 0.01127422255399857,
-        "fov": 1.3378744097411812
+        "yaw": 0.8582360653112779,
+        "pitch": -0.14276284119856797,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": 0.8422276805894615,
-          "pitch": 0.2376908869552885,
-          "rotation": 18.06415775814132,
+          "yaw": 0.8326054836560708,
+          "pitch": 0.19262953878264355,
+          "rotation": 0,
           "target": "0-entry-lobby"
         },
         {
-          "yaw": 1.368667120115834,
-          "pitch": 0.15878719949643383,
-          "rotation": 0,
-          "target": "18-upper-level-outdoor-terrace"
-        },
-        {
-          "yaw": 0.6688160084651518,
-          "pitch": 0.4141474781453027,
+          "yaw": 0.6901731108977884,
+          "pitch": 0.38253321518523187,
           "rotation": 3.141592653589793,
           "target": "17-gibbs-deck---existing"
+        },
+        {
+          "yaw": 1.3623678214274868,
+          "pitch": 0.163950342642881,
+          "rotation": 0,
+          "target": "18-upper-level-outdoor-terrace"
         }
       ],
       "infoHotspots": []
     },
     {
       "id": "17-gibbs-deck---existing",
-      "name": "Gibbs Deck - existing",
+      "name": "Gibbs Deck - Existing",
       "levels": [
         {
           "tileSize": 256,
@@ -892,16 +838,16 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 0.7760002366559497,
-        "pitch": 0.011274222553996793,
-        "fov": 1.3378744097411812
+        "yaw": 0.8565538944402871,
+        "pitch": -0.14520037644578743,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": 0.6715023604913153,
-          "pitch": 0.4141470096383646,
+          "yaw": 0.6867004842483091,
+          "pitch": 0.3816480375150526,
           "rotation": 3.141592653589793,
-          "target": "16-gibbs-deck"
+          "target": "16-gibbs-deck---proposed"
         }
       ],
       "infoHotspots": []
@@ -926,47 +872,41 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -1.7708379102926806,
-        "pitch": -0.020669408015685065,
-        "fov": 1.3378744097411812
+        "yaw": -1.9687502808669048,
+        "pitch": 0.0008853355231437376,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": -2.3150352523619233,
-          "pitch": 0.06379242612444891,
-          "rotation": 0,
-          "target": "16-gibbs-deck"
-        },
-        {
-          "yaw": -1.7133073948764004,
-          "pitch": 0.10724257013761829,
-          "rotation": 6.283185307179586,
-          "target": "1-meeting-room"
-        },
-        {
-          "yaw": 0.11506256703166606,
-          "pitch": 0.21810154532067827,
-          "rotation": 0,
-          "target": "20-green-roof-option"
-        },
-        {
-          "yaw": -1.968148758672367,
-          "pitch": 0.46112640598541255,
+          "yaw": -2.0419391621194265,
+          "pitch": 0.5479114430253862,
           "rotation": 3.141592653589793,
           "target": "19-upper-level-outdoor-terrace---existing"
         },
         {
-          "yaw": 2.485932194640764,
-          "pitch": 0.44730174795424915,
+          "yaw": -1.880155066063434,
+          "pitch": 0.06053146350197558,
+          "rotation": 0,
+          "target": "1-meeting-room"
+        },
+        {
+          "yaw": -2.3977964310324804,
+          "pitch": 0.061311092462815964,
+          "rotation": 0,
+          "target": "16-gibbs-deck---proposed"
+        },
+        {
+          "yaw": 2.557544794988159,
+          "pitch": 0.2847891877839235,
           "rotation": 3.141592653589793,
-          "target": "22-sports-center-access"
+          "target": "20-sports-center-access"
         }
       ],
       "infoHotspots": []
     },
     {
       "id": "19-upper-level-outdoor-terrace---existing",
-      "name": "Upper Level Outdoor Terrace - existing",
+      "name": "Upper Level Outdoor Terrace - Existing",
       "levels": [
         {
           "tileSize": 256,
@@ -984,14 +924,14 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -1.7721804712557798,
-        "pitch": -0.0206694080156673,
-        "fov": 1.3378744097411812
+        "yaw": -1.9453022509292364,
+        "pitch": 0.003675958897362719,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": -1.971603216668008,
-          "pitch": 0.46095952381523553,
+          "yaw": -2.0186161864095364,
+          "pitch": 0.5506958273167211,
           "rotation": 3.141592653589793,
           "target": "18-upper-level-outdoor-terrace"
         }
@@ -999,123 +939,7 @@ var APP_DATA = {
       "infoHotspots": []
     },
     {
-      "id": "20-green-roof-option",
-      "name": "Green Roof Option",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -0.0026851219261452286,
-        "pitch": 0,
-        "fov": 1.4134061960355204
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.07535682889852424,
-          "pitch": 0.2179113149765648,
-          "rotation": 0,
-          "target": "21-non-green-roof-option"
-        },
-        {
-          "yaw": -1.708482931788799,
-          "pitch": 0.10537596163614538,
-          "rotation": 0,
-          "target": "1-meeting-room"
-        },
-        {
-          "yaw": -2.3144809199123575,
-          "pitch": 0.05716081141617835,
-          "rotation": 0,
-          "target": "16-gibbs-deck"
-        },
-        {
-          "yaw": -1.9708874022737692,
-          "pitch": 0.46448978619009296,
-          "rotation": 3.141592653589793,
-          "target": "19-upper-level-outdoor-terrace---existing"
-        },
-        {
-          "yaw": 2.5543575411826644,
-          "pitch": 0.46670740112728915,
-          "rotation": 3.141592653589793,
-          "target": "22-sports-center-access"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "21-non-green-roof-option",
-      "name": "Non-Green Roof Option",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 1024,
-      "initialViewParameters": {
-        "yaw": -0.0013425609630726143,
-        "pitch": 0,
-        "fov": 1.4134061960355204
-      },
-      "linkHotspots": [
-        {
-          "yaw": 0.07535708078246728,
-          "pitch": 0.21791105600339655,
-          "rotation": 0,
-          "target": "20-green-roof-option"
-        },
-        {
-          "yaw": -1.7004071248929282,
-          "pitch": 0.10857530983905583,
-          "rotation": 0,
-          "target": "1-meeting-room"
-        },
-        {
-          "yaw": -1.9067104746087757,
-          "pitch": 0.4671735341194321,
-          "rotation": 9.42477796076938,
-          "target": "19-upper-level-outdoor-terrace---existing"
-        },
-        {
-          "yaw": -2.284071928364291,
-          "pitch": 0.05762701882358634,
-          "rotation": 0,
-          "target": "16-gibbs-deck"
-        },
-        {
-          "yaw": 2.4986032700111034,
-          "pitch": 0.48507757816830654,
-          "rotation": 9.42477796076938,
-          "target": "22-sports-center-access"
-        }
-      ],
-      "infoHotspots": []
-    },
-    {
-      "id": "22-sports-center-access",
+      "id": "20-sports-center-access",
       "name": "Sports Center Access",
       "levels": [
         {
@@ -1134,34 +958,34 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -0.7209552371699672,
-        "pitch": -0.26494423001898504,
-        "fov": 1.3378744097411812
+        "yaw": -0.8162770655481193,
+        "pitch": -0.03859756842229345,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": -1.5101100827036582,
-          "pitch": -0.11871542069257579,
+          "yaw": -1.5448415065801449,
+          "pitch": -0.10340124735286338,
           "rotation": 5.497787143782138,
           "target": "18-upper-level-outdoor-terrace"
         },
         {
-          "yaw": -0.9748462831106046,
-          "pitch": -0.08559862293837739,
+          "yaw": -0.8318223773041638,
+          "pitch": -0.023052011014879525,
           "rotation": 0,
           "target": "4-snack-area"
         },
         {
-          "yaw": -0.011441988601916364,
-          "pitch": 0.00806585905544921,
+          "yaw": -0.011188374039505788,
+          "pitch": 0.008615742675303295,
           "rotation": 0,
-          "target": "23-south-terrace"
+          "target": "21-south-terrace"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "23-south-terrace",
+      "id": "21-south-terrace",
       "name": "South Terrace",
       "levels": [
         {
@@ -1180,22 +1004,22 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": -3.0126544139908127,
-        "pitch": -0.09583089170900472,
-        "fov": 1.3378744097411812
+        "yaw": -2.8311726532656216,
+        "pitch": -0.06458145639265211,
+        "fov": 1.4134061960355204
       },
       "linkHotspots": [
         {
-          "yaw": -2.7420475861250324,
-          "pitch": 0.03949493072243371,
+          "yaw": -2.73404556419214,
+          "pitch": 0.01072444801036454,
           "rotation": 0,
-          "target": "7-dining-room"
+          "target": "9-dining-room"
         },
         {
-          "yaw": 3.0255138183358596,
-          "pitch": 0.07760247302540613,
-          "rotation": 5.497787143782138,
-          "target": "22-sports-center-access"
+          "yaw": 3.0447047947389265,
+          "pitch": 0.09426366856428103,
+          "rotation": 11.780972450961727,
+          "target": "20-sports-center-access"
         }
       ],
       "infoHotspots": []
