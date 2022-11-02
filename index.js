@@ -72,7 +72,6 @@
 
 var deviceOrientationControlMethod = new DeviceOrientationControlMethod();
 var controls = viewer.controls();
- var deviceOrientationControlMethod = new DeviceOrientationControlMethod();
   controls.registerMethod('deviceOrientation', deviceOrientationControlMethod);
 
   // Create scenes.
@@ -308,17 +307,7 @@ toggleElement.addEventListener('click', toggle);
   }
 
   function toggleAutorotate() {
-	  function enableGiro(scene) {
-	  deviceOrientationControlMethod.getPitch(function(err, pitch) {
-		if (!err) {
-		  scene.view.setPitch(pitch);
-		}
-	  });
-	  controls.enableMethod('deviceOrientation');
-	  giroenabled = true;
-	  toggleElementGiro.className = 'enabled';
-	}
-    if (autorotateToggleElement.classList.contains('enabled')) {
+	 if (autorotateToggleElement.classList.contains('enabled')) {
       autorotateToggleElement.classList.remove('enabled');
       stopAutorotate();
     } else {
