@@ -21,7 +21,8 @@ var viewer = new Marzipano.Viewer(document.getElementById('pano'));
 // Register the custom control method.
 var deviceOrientationControlMethod = new DeviceOrientationControlMethod();
 var controls = viewer.controls();
-controls.registerMethod('deviceOrientation', deviceOrientationControlMethod);
+ var deviceOrientationControlMethod = new DeviceOrientationControlMethod();
+  controls.registerMethod('deviceOrientation', deviceOrientationControlMethod);
 
 // Create source.
 var source = Marzipano.ImageUrlSource.fromString(
@@ -51,6 +52,17 @@ scene.switchTo();
 var enabled = false;
 
 var toggleElement = document.getElementById('toggleDeviceOrientation');
+
+function enableGiro(scene) {
+	  deviceOrientationControlMethod.getPitch(function(err, pitch) {
+		if (!err) {
+		  scene.view.setPitch(pitch);
+		}
+	  });
+	  controls.enableMethod('deviceOrientation');
+	  giroenabled = true;
+	  toggleElementGiro.className = 'enabled';
+	}
 
 function requestPermissionForIOS() {
   window.DeviceOrientationEvent.requestPermission()
