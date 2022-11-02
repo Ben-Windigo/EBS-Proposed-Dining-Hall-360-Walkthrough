@@ -1025,7 +1025,7 @@ var APP_DATA = {
       "infoHotspots": []
     }
   ],
-  "name": "Project Title",
+  "name": "EBS Proposed Dining Hall 360 Walkthrough",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": false,
