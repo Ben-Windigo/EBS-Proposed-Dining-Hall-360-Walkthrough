@@ -1,28 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Device Orientation | Marzipano</title>
-<meta name="description" content="Control the view through the DeviceOrientation API by using a custom control method." />
+<title>EBS Proposed Dining Hall 360 Walkthrough</title>
+<meta charset="utf-8">
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
-<style>@-ms-viewport { width: device-width; }</style>
-<link rel="stylesheet" href="//www.marzipano.net/demos/common/reset.css">
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body class="multiple-scenes ">
 
-
 <div id="pano"></div>
-
-<div id="toggleDeviceOrientation">
-  <img class="enable" src="img/enable.png">
-  <img class="disable" src="img/disable.png">
-</div>
-
-<script src="../../build/marzipano.js" ></script>
-
-<script src="DeviceOrientationControlMethod.js"></script>
-<script src="index.js"></script>
-
 
 <div id="sceneList">
   <ul class="scenes">
@@ -55,63 +43,67 @@
         <li class="text">Snack Area - Wall CLOSED</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="7-teaching-kitchen">
+      <a href="javascript:void(0)" class="scene" data-id="7-lower-level-corridor">
+        <li class="text">Lower Level Corridor</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-teaching-kitchen">
         <li class="text">Teaching Kitchen</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="8-bakery">
+      <a href="javascript:void(0)" class="scene" data-id="9-bakery">
         <li class="text">Bakery</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="9-dining-room">
+      <a href="javascript:void(0)" class="scene" data-id="10-dining-room">
         <li class="text">Dining Room</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="10-servery">
+      <a href="javascript:void(0)" class="scene" data-id="11-dining-room---servery-doors-open">
+        <li class="text">Dining Room - Servery Doors OPEN</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-servery">
         <li class="text">Servery</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="11-kitchen---prep-side">
+      <a href="javascript:void(0)" class="scene" data-id="13-kitchen---prep-side">
         <li class="text">Kitchen - Prep Side</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="12-kitchen---cookserve-line">
+      <a href="javascript:void(0)" class="scene" data-id="14-kitchen---cookserve-line">
         <li class="text">Kitchen - Cook/Serve Line</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="13-kitchen---dishpit">
+      <a href="javascript:void(0)" class="scene" data-id="15-kitchen---dishpit">
         <li class="text">Kitchen - Dishpit</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="14-dish-drop">
+      <a href="javascript:void(0)" class="scene" data-id="16-dish-drop">
         <li class="text">Dish Drop</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="15-kp-room">
+      <a href="javascript:void(0)" class="scene" data-id="17-kp-room">
         <li class="text">KP Room</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="16-gibbs-deck---proposed">
+      <a href="javascript:void(0)" class="scene" data-id="18-gibbs-deck---proposed">
         <li class="text">Gibbs Deck - Proposed</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="17-gibbs-deck---existing">
+      <a href="javascript:void(0)" class="scene" data-id="19-gibbs-deck---existing">
         <li class="text">Gibbs Deck - Existing</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="18-upper-level-outdoor-terrace">
+      <a href="javascript:void(0)" class="scene" data-id="20-upper-level-outdoor-terrace">
         <li class="text">Upper Level Outdoor Terrace</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="19-upper-level-outdoor-terrace---existing">
-        <li class="text">Upper Level Outdoor Terrace - Existing</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="20-sports-center-access">
+      <a href="javascript:void(0)" class="scene" data-id="21-sports-center-access">
         <li class="text">Sports Center Access</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="21-south-terrace">
+      <a href="javascript:void(0)" class="scene" data-id="22-south-terrace">
         <li class="text">South Terrace</li>
       </a>
     
@@ -159,7 +151,6 @@
 <script src="vendor/screenfull.min.js" ></script>
 <script src="vendor/bowser.min.js" ></script>
 <script src="vendor/marzipano.js" ></script>
- 
 
 <script src="data.js"></script>
 <script src="index.js"></script>

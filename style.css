@@ -42,59 +42,6 @@ a, a:hover, a:active, a:visited {
   overflow: hidden;
 }
 
-#toggleDeviceOrientation {
-  width: 50px;
-  height: 50px;
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  background-color: rgb(103,115,131);
-  background-color: rgba(103,115,131,0.8);
-}
-
-#toggleDeviceOrientation img {
-  width: 34px;
-  margin: 8px;
-}
-
-#toggleDeviceOrientation .disable {
-  display: none;
-}
-
-#toggleDeviceOrientation.enabled .disable {
-  display: block;
-}
-
-#toggleDeviceOrientation.enabled .enable {
-  display: none;
-}
-
-function enable() {
-  if (window.DeviceOrientationEvent) {
-    if (typeof (window.DeviceOrientationEvent.requestPermission) == 'function') {
-      requestPermissionForIOS()
-    } else {
-      enableDeviceOrientation()
-    }
-  }
-}
-
-function disable() {
-  controls.disableMethod('deviceOrientation');
-  enabled = false;
-  toggleElement.className = '';
-}
-
-function toggle() {
-  if (enabled) {
-    disable();
-  } else {
-    enable();
-  }
-}
-
-toggleElement.addEventListener('click', toggle);
-
 #titleBar {
   position: absolute;
   top: 0;
