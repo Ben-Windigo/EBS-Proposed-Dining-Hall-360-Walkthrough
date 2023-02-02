@@ -3,13 +3,12 @@
 <head>
 <title>EBS Proposed Dining Hall 360 Walkthrough</title>
 <meta charset="utf-8">
-<meta name="description" content="Control the view through the DeviceOrientation API by using a custom control method." />
 <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
 <style> @-ms-viewport { width: device-width; } </style>
 <link rel="stylesheet" href="vendor/reset.min.css">
 <link rel="stylesheet" href="style.css">
 </head>
-<body class="multiple-scenes ">
+<body class="multiple-scenes view-control-buttons">
 
 <div id="pano"></div>
 
@@ -29,80 +28,80 @@
         <li class="text">Meeting Room</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="2-upper-corridor">
-        <li class="text">Upper Corridor</li>
+      <a href="javascript:void(0)" class="scene" data-id="2-upper-level-corridor">
+        <li class="text">Upper Level Corridor</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="3-balcony-landing">
-        <li class="text">Balcony Landing</li>
+      <a href="javascript:void(0)" class="scene" data-id="3-balcony">
+        <li class="text">Balcony</li>
       </a>
     
       <a href="javascript:void(0)" class="scene" data-id="4-snack-area">
         <li class="text">Snack Area</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="5-snack-area---wall-open">
-        <li class="text">Snack Area - Wall OPEN</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="6-snack-area---wall-closed">
-        <li class="text">Snack Area - Wall CLOSED</li>
-      </a>
-    
-      <a href="javascript:void(0)" class="scene" data-id="7-lower-level-corridor">
+      <a href="javascript:void(0)" class="scene" data-id="5-lower-level-corridor">
         <li class="text">Lower Level Corridor</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="8-teaching-kitchen">
-        <li class="text">Teaching Kitchen</li>
+      <a href="javascript:void(0)" class="scene" data-id="6-teaching-kitchen---doors-closed">
+        <li class="text">Teaching Kitchen - Doors Closed</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="9-bakery">
+      <a href="javascript:void(0)" class="scene" data-id="7-teaching-kitchen---doors-open">
+        <li class="text">Teaching Kitchen - Doors Open</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-bakery">
         <li class="text">Bakery</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="10-dining-room">
+      <a href="javascript:void(0)" class="scene" data-id="9-dining-room">
         <li class="text">Dining Room</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="11-dining-room---servery-doors-closed">
-        <li class="text">Dining Room - Servery Doors CLOSED</li>
+      <a href="javascript:void(0)" class="scene" data-id="10-dining-room---servery-doors-closed">
+        <li class="text">Dining Room - Servery Doors Closed</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="12-dining-room---servery-doors-open">
-        <li class="text">Dining Room - Servery Doors OPEN</li>
+      <a href="javascript:void(0)" class="scene" data-id="11-dining-room---servery-doors-open">
+        <li class="text">Dining Room - Servery Doors Open</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="13-servery">
+      <a href="javascript:void(0)" class="scene" data-id="12-servery">
         <li class="text">Servery</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="14-kitchen---prep-side">
+      <a href="javascript:void(0)" class="scene" data-id="13-kitchen---prep-side">
         <li class="text">Kitchen - Prep Side</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="15-kitchen---cookserve-line">
+      <a href="javascript:void(0)" class="scene" data-id="14-kitchen---cookserve-line">
         <li class="text">Kitchen - Cook/Serve Line</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="16-kitchen---dishpit">
+      <a href="javascript:void(0)" class="scene" data-id="15-kitchen---dishpit">
         <li class="text">Kitchen - Dishpit</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="17-dish-drop">
+      <a href="javascript:void(0)" class="scene" data-id="16-dish-drop">
         <li class="text">Dish Drop</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="18-kp-room">
+      <a href="javascript:void(0)" class="scene" data-id="17-kp-room">
         <li class="text">KP Room</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="19-gibbs-deck---proposed">
+      <a href="javascript:void(0)" class="scene" data-id="18-gibbs-deck---proposed">
         <li class="text">Gibbs Deck - Proposed</li>
       </a>
     
-      <a href="javascript:void(0)" class="scene" data-id="20-gibbs-deck---existing">
+      <a href="javascript:void(0)" class="scene" data-id="19-gibbs-deck---existing">
         <li class="text">Gibbs Deck - Existing</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-exterior-from-north-west">
+        <li class="text">Exterior From North West</li>
       </a>
     
       <a href="javascript:void(0)" class="scene" data-id="21-upper-level-outdoor-terrace">
