@@ -70,6 +70,11 @@
   // Initialize viewer.
   var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
 
+// Register the custom control method.
+  var deviceOrientationControlMethod = new DeviceOrientationControlMethod();
+  var controls = viewer.controls();
+  controls.registerMethod('deviceOrientation', deviceOrientationControlMethod);
+
   // Create scenes.
   var scenes = data.scenes.map(function(data) {
     var urlPrefix = "tiles";
@@ -88,12 +93,7 @@
       pinFirstLevel: true
     });
 
-  // Register the custom control method.
-  var deviceOrientationControlMethod = new DeviceOrientationControlMethod();
-  var controls = viewer.controls();
-  controls.registerMethod('deviceOrientation', deviceOrientationControlMethod);
-
-    // Create link hotspots.
+      // Create link hotspots.
     data.linkHotspots.forEach(function(hotspot) {
       var element = createLinkHotspotElement(hotspot);
       scene.hotspotContainer().createHotspot(element, { yaw: hotspot.yaw, pitch: hotspot.pitch });
