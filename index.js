@@ -70,6 +70,11 @@
   // Initialize viewer.
   var viewer = new Marzipano.Viewer(panoElement, viewerOpts);
 
+  // Register the custom control method.
+  var deviceOrientationControlMethod = new DeviceOrientationControlMethod();
+  var controls = viewer.controls();
+  controls.registerMethod('deviceOrientation', deviceOrientationControlMethod);
+
   // Create scenes.
   var scenes = data.scenes.map(function(data) {
     var urlPrefix = "tiles";
@@ -106,36 +111,6 @@
       view: view
     };
   });
-
-  // Set up autorotate, if enabled.
-  var autorotate = Marzipano.autorotate({
-    yawSpeed: 0.03,
-    targetPitch: 0,
-    targetFov: Math.PI/2
-  });
-  if (data.settings.autorotateEnabled) {
-    autorotateToggleElement.classList.add('enabled');
-  }
-
-  // Set handler for autorotate toggle.
-  autorotateToggleElement.addEventListener('click', toggleAutorotate);
-
-  // Set up fullscreen mode, if supported.
-  if (screenfull.enabled && data.settings.fullscreenButton) {
-    document.body.classList.add('fullscreen-enabled');
-    fullscreenToggleElement.addEventListener('click', function() {
-      screenfull.toggle();
-    });
-    screenfull.on('change', function() {
-      if (screenfull.isFullscreen) {
-        fullscreenToggleElement.classList.add('enabled');
-      } else {
-        fullscreenToggleElement.classList.remove('enabled');
-      }
-    });
-  } else {
-    document.body.classList.add('fullscreen-disabled');
-  }
 
 // Set up control for enabling/disabling device orientation.
 
@@ -191,6 +166,36 @@ function toggle() {
 
 toggleElement.addEventListener('click', toggle);
 
+  // Set up autorotate, if enabled.
+  var autorotate = Marzipano.autorotate({
+    yawSpeed: 0.03,
+    targetPitch: 0,
+    targetFov: Math.PI/2
+  });
+  if (data.settings.autorotateEnabled) {
+    autorotateToggleElement.classList.add('enabled');
+  }
+
+  // Set handler for autorotate toggle.
+  autorotateToggleElement.addEventListener('click', toggleAutorotate);
+
+  // Set up fullscreen mode, if supported.
+  if (screenfull.enabled && data.settings.fullscreenButton) {
+    document.body.classList.add('fullscreen-enabled');
+    fullscreenToggleElement.addEventListener('click', function() {
+      screenfull.toggle();
+    });
+    screenfull.on('change', function() {
+      if (screenfull.isFullscreen) {
+        fullscreenToggleElement.classList.add('enabled');
+      } else {
+        fullscreenToggleElement.classList.remove('enabled');
+      }
+    });
+  } else {
+    document.body.classList.add('fullscreen-disabled');
+  }
+
   // Set handler for scene list toggle.
   sceneListToggleElement.addEventListener('click', toggleSceneList);
 
@@ -225,6 +230,7 @@ toggleElement.addEventListener('click', toggle);
 
   // Associate view controls with elements.
   var controls = viewer.controls();
+  var deviceOrientationControlMethod = new DeviceOrientationControlMethod();
   controls.registerMethod('upElement',    new Marzipano.ElementPressControlMethod(viewUpElement,     'y', -velocity, friction), true);
   controls.registerMethod('downElement',  new Marzipano.ElementPressControlMethod(viewDownElement,   'y',  velocity, friction), true);
   controls.registerMethod('leftElement',  new Marzipano.ElementPressControlMethod(viewLeftElement,   'x', -velocity, friction), true);
@@ -243,6 +249,7 @@ toggleElement.addEventListener('click', toggle);
     startAutorotate();
     updateSceneName(scene);
     updateSceneList(scene);
+    enableGiro(scene);
   }
 
   function updateSceneName(scene) {
@@ -296,6 +303,17 @@ toggleElement.addEventListener('click', toggle);
       autorotateToggleElement.classList.add('enabled');
       startAutorotate();
     }
+  }
+
+function enableGiro(scene) {
+    deviceOrientationControlMethod.getPitch(function(err, pitch) {
+      if (!err) {
+        scene.view.setPitch(pitch);
+      }
+  });
+  controls.enableMethod('deviceOrientation');
+  giroenabled = true;
+  toggleElementGiro.className = 'enabled';
   }
 
   function createLinkHotspotElement(hotspot) {
