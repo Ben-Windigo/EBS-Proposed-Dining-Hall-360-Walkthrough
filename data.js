@@ -32,14 +32,14 @@ var APP_DATA = {
           "target": "2-upper-level-corridor"
         },
         {
-          "yaw": 1.3632608942301534,
-          "pitch": 0.16010241219382593,
+          "yaw": 1.3003341270375532,
+          "pitch": 0.11410487237381517,
           "rotation": 5.497787143782138,
           "target": "3-balcony"
         },
         {
-          "yaw": 2.6662247442119344,
-          "pitch": 0.06629458354973394,
+          "yaw": 2.647596532242309,
+          "pitch": 0.06518641890134269,
           "rotation": 15.707963267948973,
           "target": "5-lower-level-corridor"
         },
@@ -56,14 +56,14 @@ var APP_DATA = {
           "target": "18-gibbs-deck---proposed"
         },
         {
-          "yaw": 1.6226756080687066,
-          "pitch": 0.22130715362868258,
+          "yaw": 1.5755132885521803,
+          "pitch": 0.21015088034367224,
           "rotation": 5.497787143782138,
           "target": "9-dining-room"
         },
         {
-          "yaw": 1.7306288241894023,
-          "pitch": 0.23310567309908592,
+          "yaw": 1.7280419227272752,
+          "pitch": 0.23067294470189204,
           "rotation": 0.7853981633974483,
           "target": "4-snack-area"
         }
@@ -246,44 +246,44 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 2.8214414022426917,
-        "pitch": -0.007720921388919777,
-        "fov": 1.4532490337853081
+        "yaw": 2.871534373410922,
+        "pitch": -0.0011346330401984517,
+        "fov": 1.4019787994768
       },
       "linkHotspots": [
         {
-          "yaw": -2.855215328060389,
-          "pitch": 0.03000002295252102,
-          "rotation": 4.71238898038469,
-          "target": "6-teaching-kitchen---doors-closed"
-        },
-        {
-          "yaw": -2.8554921818906394,
-          "pitch": 0.11471209682593475,
-          "rotation": 1.5707963267948966,
-          "target": "7-teaching-kitchen---doors-open"
-        },
-        {
-          "yaw": 2.1249576712433216,
-          "pitch": 0.09464775980790385,
+          "yaw": 2.0715533622582436,
+          "pitch": 0.11063458005543403,
           "rotation": 0,
           "target": "22-sports-center-access"
         },
         {
-          "yaw": -1.9711020104679733,
-          "pitch": 0.08921361301673514,
-          "rotation": 0,
+          "yaw": -2.852974023800467,
+          "pitch": 0.008383965951074046,
+          "rotation": 4.71238898038469,
+          "target": "6-teaching-kitchen---doors-closed"
+        },
+        {
+          "yaw": -2.855325916293747,
+          "pitch": 0.14899134682633175,
+          "rotation": 1.5707963267948966,
+          "target": "7-teaching-kitchen---doors-open"
+        },
+        {
+          "yaw": -1.9732250806210203,
+          "pitch": 0.11973574500693296,
+          "rotation": 0.7853981633974483,
           "target": "5-lower-level-corridor"
         },
         {
-          "yaw": -1.1072497955585376,
-          "pitch": -0.13675991825904887,
+          "yaw": -1.1142604275268901,
+          "pitch": -0.14432989267163876,
           "rotation": 0,
           "target": "0-entry-lobby"
         },
         {
-          "yaw": 0.4275235952569858,
-          "pitch": 0.11493191449965501,
+          "yaw": 0.46264572838170537,
+          "pitch": 0.1210332441643267,
           "rotation": 0,
           "target": "9-dining-room"
         }
@@ -576,8 +576,8 @@ var APP_DATA = {
           "target": "11-dining-room---servery-doors-open"
         },
         {
-          "yaw": -2.050977092018055,
-          "pitch": -0.39808240469813505,
+          "yaw": -2.0490662834929463,
+          "pitch": -0.39635398792888843,
           "rotation": 0,
           "target": "2-upper-level-corridor"
         },
@@ -768,8 +768,8 @@ var APP_DATA = {
           "target": "12-servery"
         },
         {
-          "yaw": 0.48086341593637094,
-          "pitch": 0.07646407348364548,
+          "yaw": 0.443739626890439,
+          "pitch": 0.06363590268816566,
           "rotation": 5.497787143782138,
           "target": "14-kitchen---cookserve-line"
         },
